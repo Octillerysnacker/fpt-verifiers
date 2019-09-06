@@ -1,5 +1,7 @@
-package  fpt.verifiers.core;
+package fpt.verifiers.core;
 
-public interface ISimplifiedCompiler{
-    
+import java.nio.file.Path;
+
+public interface ISimplifiedCompiler {
+    void compileToDir(Path srcDir, Path outDir);
 }
